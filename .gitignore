@@ -1,0 +1,11 @@
+# declaramos variable nombre y con el input lo que hacemos
+# es asignarle el valor de la informacion que ingrese el usuario.
+nombre=input("Hola; si eres tan amable ingresa tu nombre y luego presiona la tecla enter: ") 
+#luego declaramos la variable ciudad y nuevamente utilizamos
+#un input para almacenar la iformacion que se nos ingrese
+ciudad=input("Ingresa tu ciudad natal y posteriormente presiona enter: ")
+#por ultimo imprimimos un saludo personalizado en pantalla, 
+#para ello utilizamos f-string que nos permitira insertar
+#las varibables dentro de los signos {}, lo que hace 
+#visualizar los datos tanto números como texto dentro de una cadena
+print(f"Que lindo es recibirte {nombre} de {ciudad}, sabes que conozco {ciudad} y me parece una ciudad hermosa, nuevamente bienvenido {nombre} ")
